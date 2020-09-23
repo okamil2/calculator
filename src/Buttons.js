@@ -1,5 +1,5 @@
 import React from 'react';
-import './buttons.css';
+import './Buttons.css';
 import App from "./App";
 
 function Buttons(){

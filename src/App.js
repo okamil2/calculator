@@ -2,12 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Button from './Buttons';
-import screen from './screen';
+import Screen from './Screen';
 
 function App() {
   return (
       <wrapper>
-        <screen />
+        <Screen />
         <Button />
       </wrapper>
   );

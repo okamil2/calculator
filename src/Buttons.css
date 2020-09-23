@@ -8,10 +8,19 @@ body {
     border: deepskyblue;
     text-align: center;
     border-radius: 50%;
-    text-decoration-color: white;
     padding: 5px 10px;
-    width: 11%;
-    margin: 0.1px;
+    width: 15%;
+    margin: 0.4px;
+    cursor: pointer;
+
+}
+
+.key:hover {background-color: #61dafb }
+
+.key:active {
+    background-color: darkgoldenrod;
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
 }
 
 .key1{
@@ -39,20 +48,15 @@ body {
     background-color: darkred;
 }
 
-table{
-    border: 1px darkgrey;
-    text-align: center;
-}
-
 .container {
     text-align: center;
     background-color: white;
-    height: 200px;
-    width: 300px;
+    height: 150px;
+    width: 200px;
     border-radius: 1px;
     display: inline-block;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 3px 5px;
