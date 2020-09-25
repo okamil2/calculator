@@ -7,8 +7,8 @@ function Buttons(){
         <div className="keys">
             <div class={"container"}>
                 <div>
-                    <button className={"key AcColor"} id={"clear"}>AC</button>
-                    <button className={"key CColor"} id={"backSpace"}>C</button>
+                    <button className={"key AcColor"}>AC</button>
+                    <button className={"key CColor"}>C</button>
                     <button className={"key sqrtColor"} >√</button>
                     <button className={"key addColor"} >+</button>
                 </div>

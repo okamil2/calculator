@@ -5,7 +5,7 @@ import './Screen.css';
 let output = 0;
 function Screen(){
     return(
-        <div className={"output"} id={"result"}>
+        <div className={"output"}>
             {output}
         </div>
 
