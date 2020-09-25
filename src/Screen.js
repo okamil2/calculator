@@ -2,13 +2,11 @@ import React from 'react';
 import App from "./App";
 import './Screen.css';
 
-
-let testVariable;
-testVariable = "result";
+let output = 0;
 function Screen(){
     return(
         <div className={"output"} id={"result"}>
-            {testVariable}
+            {output}
         </div>
 
     );
