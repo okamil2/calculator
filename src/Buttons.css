@@ -23,28 +23,28 @@ body {
     transform: translateY(1px);
 }
 
-.key1{
+.AcColor{
     background-color: grey;
 }
-.key2{
+.CColor{
     background-color: darkslategrey;
 }
-.key3{
+.sqrtColor{
     background-color: lightgrey;
 }
-.key4{
+.addColor{
     background-color: orangered;
 }
-.key5{
+.minusColor{
     background-color: green;
 }
-.key6{
+.divColor{
     background-color: saddlebrown;
 }
-.key7{
+.multColor{
     background-color: darkgoldenrod;
 }
-.key8{
+.equalsColor{
     background-color: darkred;
 }
 
