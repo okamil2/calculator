@@ -1,0 +1,65 @@
+body {
+    background-color:gray;
+    margin:0;
+}
+
+.key{
+    background-color: skyblue;
+    border: deepskyblue;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px 10px;
+    width: 15%;
+    margin: 0.4px;
+    cursor: pointer;
+
+}
+
+.key:hover {background-color: #61dafb }
+
+.key:active {
+    background-color: darkgoldenrod;
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}
+
+.AcColor{
+    background-color: grey;
+}
+.CColor{
+    background-color: darkslategrey;
+}
+.sqrtColor{
+    background-color: lightgrey;
+}
+.addColor{
+    background-color: orangered;
+}
+.minusColor{
+    background-color: green;
+}
+.divColor{
+    background-color: saddlebrown;
+}
+.multColor{
+    background-color: darkgoldenrod;
+}
+.equalsColor{
+    background-color: darkred;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    height: 150px;
+    width: 200px;
+    border-radius: 1px;
+    display: inline-block;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3px 5px;
+    zoom: 3;
+
+}
