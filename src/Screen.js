@@ -1,12 +1,12 @@
 import React from 'react';
-import App from "./App";
+//import App from "./App";
 import './Screen.css';
 
-let output = 0;
-function Screen(){
+
+function Screen(props){
     return(
         <div className={"output"}>
-            {output}
+            {props.output}
         </div>
 
     );

@@ -12,6 +12,7 @@ body {
     width: 15%;
     margin: 0.4px;
     cursor: pointer;
+    outline: none;
 
 }
 

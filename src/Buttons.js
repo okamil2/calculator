@@ -1,44 +1,45 @@
 import React from 'react';
 import './Buttons.css';
-import App from "./App";
+//import App from "./App";
 
-function Buttons(){
+
+function Buttons(props){
     return(
         <div className="keys">
             <div class={"container"}>
                 <div>
-                    <button className={"key AcColor"}>AC</button>
-                    <button className={"key CColor"}>C</button>
-                    <button className={"key sqrtColor"} >√</button>
-                    <button className={"key addColor"} >+</button>
+                    <button className={"key AcColor"} value={"AC"} onClick={props.buttonsFunction}>AC</button>
+                    <button className={"key CColor"} value={"C"} onClick={props.buttonsFunction}>C</button>
+                    <button className={"key sqrtColor"} value={"sqrt"} onClick={props.buttonsFunction}>√</button>
+                    <button className={"key addColor"} value={"plus"} onClick={props.buttonsFunction}>+</button>
                 </div>
 
                 <div>
-                    <button className={"key"}>1</button>
-                    <button className={"key"}>2</button>
-                    <button className={"key"}>3</button>
-                    <button className={"key minusColor"} >-</button>
+                    <button className={"key"} value={1} onClick={props.buttonsFunction}>1</button>
+                    <button className={"key"} value={2} onClick={props.buttonsFunction}>2</button>
+                    <button className={"key"} value={3} onClick={props.buttonsFunction}>3</button>
+                    <button className={"key minusColor"} value={"minus"} onClick={props.buttonsFunction}>-</button>
                 </div>
 
                 <div>
-                    <button className={"key"}>4</button>
-                    <button className={"key"}>5</button>
-                    <button className={"key"}>6</button>
-                    <button className={"key divColor"} >÷</button>
+                    <button className={"key"} value={4} onClick={props.buttonsFunction}>4</button>
+                    <button className={"key"} value={5} onClick={props.buttonsFunction}>5</button>
+                    <button className={"key"} value={6} onClick={props.buttonsFunction}>6</button>
+                    <button className={"key divColor"} value={"divide"} onClick={props.buttonsFunction}>÷</button>
                 </div>
 
                 <div>
-                    <button className={"key"}>7</button>
-                    <button className={"key"}>8</button>
-                    <button className={"key"}>9</button>
-                    <button className={"key multColor"} >x</button>
+                    <button className={"key"} value={7} onClick={props.buttonsFunction}>7</button>
+                    <button className={"key"} value={8} onClick={props.buttonsFunction}>8</button>
+                    <button className={"key"} value={9} onClick={props.buttonsFunction}>9</button>
+                    <button className={"key multColor"} value={"mult"} onClick={props.buttonsFunction}>x</button>
                 </div>
 
                 <div>
-                    <button className={"key"}>.</button>
-                    <button className={"key"}>0</button>
-                    <button className={"key"}>00</button>
-                    <button className={"key equalsColor"}>=</button>
+                    <button className={"key"} value={"dot"} onClick={props.buttonsFunction}>.</button>
+                    <button className={"key"} value={0} onClick={props.buttonsFunction}>0</button>
+                    <button className={"key"} value={"00"} onClick={props.buttonsFunction}>00</button>
+                    <button className={"key equalsColor"} value={"equals"} onClick={props.buttonsFunction}>=</button>
                 </div>
             </div>
         </div>
